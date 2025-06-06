@@ -33,3 +33,37 @@ git clone https://github.com/LandAppsAi/AllTune.git
 cd AllTune
 flutter pub get
 flutter run
+
+⸻
+
+🔮 Roadmap
+	•	Pitch detection engine
+	•	Animated needle tuner UI
+	•	Instrument/tuning selector
+	•	Save favorite tunings
+	•	AI-assisted tuning accuracy coach (stretch)
+
+⸻
+
+🤝 Contributing
+
+Contributions are welcome! Please open an issue to discuss before submitting a PR.
+
+⸻
+
+📄 License
+
+This project is licensed under the MIT License. See LICENSE for details.
+
+⸻
+
+🎨 Credits
+
+Built with ❤️ by LandAppsAi
+
+Icons from Feather Icons and FontAwesome
+
+⸻
+
+📱 Screenshots (coming soon)
+
