@@ -13,6 +13,8 @@
 - 🔁 Swipe between instrument presets
 - 🎼 Alternate tunings (Drop D, DADGAD, Open G, etc.)
 - 🌙 Light & dark mode
+- 🔆 High-contrast fonts and large icons
+- ✨ Animated tuning feedback when in tune
 - 🧠 Designed for beginners and pros alike
 
 ---
