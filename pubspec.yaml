@@ -1,0 +1,15 @@
+name: alltune
+description: Universal offline musical instrument tuning app.
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^10.2.0
+  flutter_fft: ^2.0.0
+
+flutter:
+  uses-material-design: true

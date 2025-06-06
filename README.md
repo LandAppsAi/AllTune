@@ -69,6 +69,16 @@ Bb tuning
 	•	Save favorite tunings
 	•	AI-assisted tuning accuracy coach (stretch)
 
+## Quick Start
+
+Run the following commands after cloning:
+
+```bash
+flutter pub get
+flutter run
+```
+
+
 ⸻
 
 🤝 Contributing
