@@ -1,17 +1,21 @@
 import 'package:flutter/material.dart';
-
 import 'screens/home_screen.dart';
 
 void main() {
-  runApp(AllTuneApp());
+  runApp(const AllTuneApp());
 }
 
+/// Root widget for AllTune.
+/// Holds light/dark themes and routes to the HomeScreen.
 class AllTuneApp extends StatelessWidget {
+  const AllTuneApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'AllTune',
       debugShowCheckedModeBanner: false,
+      themeMode: ThemeMode.system,
       theme: ThemeData(
         brightness: Brightness.light,
         primarySwatch: Colors.indigo,
@@ -22,8 +26,7 @@ class AllTuneApp extends StatelessWidget {
         primarySwatch: Colors.indigo,
         scaffoldBackgroundColor: Colors.black,
       ),
-      themeMode: ThemeMode.system,
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }

@@ -1,25 +1,38 @@
 name: alltune
 description: A universal musical instrument tuning app built with Flutter.
 version: 0.1.0
-publish_to: 'none'
+publish_to: "none"
 
 environment:
-  sdk: '>=2.17.0 <3.0.0'
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_fft: ^2.4.0
+
+  # Pitch detection & mic input
+  flutter_fft: ^1.0.2+6          # compatible with current SDK
+
+  # Animations / micro-interactions
   flutter_animate: ^4.1.1
+
+  # Local storage for user prefs
   shared_preferences: ^2.2.2
+
+  # Google AdMob (optional ad-free upgrade later)
   google_mobile_ads: ^3.0.0
+
+  # Lightweight state-management
+  provider: ^6.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^3.0.1
 
 flutter:
   uses-material-design: true
+
   assets:
     - assets/images/
     - assets/audio/
