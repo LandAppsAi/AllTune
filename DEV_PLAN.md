@@ -20,10 +20,10 @@ A universal offline musical instrument tuner app built in Flutter, supporting 12
 | Task | Status | Prompt |
 |------|--------|--------|
 | Scaffold Flutter project | ⬜ | `Create a Flutter project named AllTune with lib/, assets/, and pubspec.yaml ready for a tuner app.` |
-| Set up folder structure | ⬜ | `Structure the app into: lib/screens, lib/widgets, lib/models, lib/utils, assets/images, and assets/audio.` |
+| Set up folder structure | ✅ | `Structure the app into: lib/screens, lib/widgets, lib/models, lib/utils, assets/images, and assets/audio.` |
 | Add Flutter + Dart plugins | ✅ | Use Android Studio: Preferences > Plugins |
 | Initial README.md | ✅ | `Write a README for a Flutter app called AllTune, a universal music tuner with offline pitch detection and multiple tunings.` |
-| pubspec.yaml dependencies | ⬜ | `Add dependencies for: mic input (flutter_audio_capture or flutter_fft), animations, shared_preferences, ad support.` |
+| pubspec.yaml dependencies | ✅ | `Add dependencies for: mic input (flutter_audio_capture or flutter_fft), animations, shared_preferences, ad support.` |
 
 ---
 
