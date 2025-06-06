@@ -12,22 +12,40 @@ class AllTuneApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final baseLight = ThemeData.light();
+    final baseDark = ThemeData.dark();
+
     return MaterialApp(
       title: 'AllTune',
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
-      theme: ThemeData(
-        brightness: Brightness.light,
-        primarySwatch: Colors.indigo,
+      theme: baseLight.copyWith(
+        colorScheme: baseLight.colorScheme.copyWith(
+          primary: Colors.deepPurple,
+          secondary: Colors.deepPurpleAccent,
+        ),
         scaffoldBackgroundColor: Colors.white,
+        textTheme: baseLight.textTheme.apply(fontSizeFactor: 1.2),
+        iconTheme: const IconThemeData(size: 32, color: Colors.deepPurple),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.deepPurple,
+          foregroundColor: Colors.white,
+        ),
       ),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark,
-        primarySwatch: Colors.indigo,
+      darkTheme: baseDark.copyWith(
+        colorScheme: baseDark.colorScheme.copyWith(
+          primary: Colors.deepPurpleAccent,
+          secondary: Colors.deepPurple,
+        ),
         scaffoldBackgroundColor: Colors.black,
+        textTheme: baseDark.textTheme.apply(fontSizeFactor: 1.2),
+        iconTheme: const IconThemeData(size: 32, color: Colors.white),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.black,
+          foregroundColor: Colors.white,
+        ),
       ),
       home: const HomeScreen(),
     );
   }
 }
-
