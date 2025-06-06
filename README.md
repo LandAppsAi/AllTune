@@ -30,9 +30,35 @@
 
 ```bash
 git clone https://github.com/LandAppsAi/AllTune.git
-cd AllTune
-flutter pub get
-flutter run
+
+Tunings Included
+Instrument
+Tunings
+Guitar
+Standard, Drop D, DADGAD, Open G
+Bass
+Standard (4/5 string), Drop D
+Violin
+G-D-A-E
+Viola
+C-G-D-A
+Cello
+C-G-D-A
+Ukulele
+G-C-E-A, A-D-F#-B
+Banjo
+Open G, Double C
+Mandolin
+G-D-A-E
+Trumpet
+Bb Standard
+Trombone
+C/Bb tuning
+Flute
+C tuning
+Clarinet
+Bb tuning
+
 
 ⸻
 
