@@ -95,3 +95,30 @@ Icons from Feather Icons and FontAwesome
 
 📱 Screenshots (coming soon)
 
+
+---
+
+## 🧩 C# Roguelike Dungeon Crawler
+
+This repository now also includes a small playable terminal roguelike prototype in C#.
+
+Location: `csharp-roguelike/src`
+
+### Run
+
+```bash
+cd csharp-roguelike/src
+dotnet run
+```
+
+### Controls
+
+- Move: `WASD` or arrow keys
+- Quit: `Q`
+
+### Gameplay
+
+- Explore procedurally generated dungeon floors (`#` walls, `.` floor)
+- Fight goblins (`g`) by moving into them
+- Reach stairs (`>`) to descend and advance floors
+- Survive as long as possible
